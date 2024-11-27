@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="stile homepage.css">
+</head>
+<body>
+    <div id="background-slideshow">
+    <header>
+        <div class="sfondo">
+            <h1>Home Page</h1>
+        </div>
+    </header>
+
+    <nav class="main-menu">
+        <ul>
+            <li><button class="buttonCV" onclick="apriCurriculum()">Vai al curriculum</button></li>
+            <li><button class="buttonG" onclick="apriGallery()">Vai alla PhotoGallery</button></li>
+            <li><button class="buttonC" id="toggleContatti">Mostra Contatti</button></li>
+            
+        </ul>
+        <section class="contatti" id="contattiSection" style="display: none;">
+            <h2>Contatti</h2>
+                <p><b>Telefono:</b> +39 366 1941 785</p>
+                <p><b>Email:</b> <a href="mailto:marioalexiannuzzi@gmail.com" class="social-link">marioalexiannuzzi@gmail.com</a></p>
+                <p>Social Media: <a href="https://www.linkedin.com/in/mario-alex-iannuzzi-a93814211/" class="social-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://www.instagram.com/marioalexiannuzzi__/" target="_blank" class="social-link" rel="noopener noreferrer">Instagram</a></p>
+        </section>
+    </nav>
+<script src="script.js"></script>
+<script src="background-slideshow.js"></script>
+</div>
+</body>
+</html>

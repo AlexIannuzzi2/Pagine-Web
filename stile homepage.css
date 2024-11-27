@@ -1,0 +1,148 @@
+/* Stili globali */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif; /* Font globale */
+    background-color: #000000; /* Colore di sfondo */
+    color: #ffffff; /* Colore del testo globale - ho cambiato il colore a bianco per migliorare la leggibilità */
+    margin: 0;
+    padding: 0;
+}
+
+/* Stile dell'intestazione */
+header {
+    width: 100%;
+    height: 100vh; /* Occupa tutta l'altezza della finestra */
+}
+
+
+#background-slideshow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition:  2s linear;
+}
+
+#slide1, #slide2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* sfondo::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Sovrapposizione nera semitrasparente 
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    z-index: 2; /* Assicura che il testo sia sopra la sovrapposizione */
+}
+
+/* Menu principale */
+.main-menu {
+    position: absolute; /* Posiziona il menu sopra l'immagine */
+    top: 50%;  /* Posiziona il menu verticalmente al centro */
+    left: 50%; /* Posiziona il menu orizzontalmente al centro */
+    transform: translate(-50%, -50%); /* Centra il menu esattamente al centro */
+    z-index: 2; /* Assicura che il menu sia sopra la sovrapposizione */
+}
+.main-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-menu li {
+    display: inline;
+}
+
+.buttonCV, .buttonG, .buttonC {
+    background-color: #a16c08c2;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.buttonCV:hover, .buttonG:hover, .buttonC:hover {
+    background-color: #cc8d18c2; /* Cambia il colore al passaggio del mouse */
+}
+
+/* Aggiungi uno stile per il background slideshow (se ti serve per altre sezioni) */
+#background-slideshow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+}
+
+/* Sezione contatti */
+.contatti {
+    display: none; /* Inizialmente nascosta */
+
+    margin-top: 30px;
+
+    padding: 20px;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.contatti h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contatti p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Stile per i link social */
+.social-link {
+    color: white; /* Imposta il colore del testo a bianco */
+    text-decoration: underline; /* Rimuove la sottolineatura */
+}
+
+.social-link:hover {
+    color: #be7310; /* Cambia colore al passaggio del mouse (opzionale) */
+}

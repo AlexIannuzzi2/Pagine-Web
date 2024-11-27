@@ -1,0 +1,81 @@
+body {
+    font-family: "Onest", serif, sans-serif; /* Font globale */
+    background-color: #000000; /* Colore di sfondo */
+    color: #ffffff; /* Colore del testo globale */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* Container principale per gestire il layout */
+.video-layout {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Stili per i diversi video */
+.video-top {
+    float: left;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.video-left {
+    width: 45%;
+    float: left;
+
+}
+
+.video-right {
+    width: 45%;
+    float: right;
+}
+
+/* Per assicurarsi che i video siano responsivi */
+video {
+    width: 100%;
+    height: auto;
+}
+
+/* Clear float dopo i video flottanti */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Media query per schermi piccoli */
+@media (max-width: 768px) {
+    .video-left,
+    .video-right {
+        width: 100%;
+        float: none;
+        margin: 0 0 20px 0;
+    }
+}
+.buttonHome {
+    background-color: #a16c08c2; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.buttonHome:hover {
+background-color: #cc8d18c2;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #04339b;
+    text-transform: uppercase;
+ }

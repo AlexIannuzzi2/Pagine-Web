@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+/* Stili globali */
+body {
+    font-family: "Onest", serif, sans-serif; /* Font globale */
+    background-color: #000000; /* Colore di sfondo */
+    color: #ffffff; /* Colore del testo globale */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+    color: #04339b;
+}
+img {
+    width: 100%;
+}
+
+.descrizione, .ruolo {
+    text-align: justify;
+    line-height: 1;
+    color: grey;
+}
+
+/* layouts*/
+.container {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    padding: 5rem;
+    background: #070707;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        grid-template-columns: 1fr;
+        padding: 3rem;
+        gap: 7rem;
+    }
+}
+
+.Gruppo-1 {
+    grid-column: 1 / 2;
+}
+
+.Gruppo-2 {
+    grid-column: 2 / 3;
+}
+
+.Gruppo-1, .Gruppo-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+
+.profilo {
+    grid-column: 1 / -1;
+    margin-bottom: 2rem;
+}
+
+ /* profile */
+ .profile_name {
+    color: #04339b;
+ }
+ .profilo_container {
+    display: flex;
+    gap: 2rem;
+
+} 
+ .profilo_profileimg {
+    max-width: 350px;
+
+ }
+ .descrizione {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+
+ }
+ .titolo {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #04339b;
+    text-transform: uppercase;
+ }
+ .titolo2 {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #c25004;
+    text-transform: uppercase;
+ }
+.donwloadButton {
+    display: block;
+    text-decoration: underline;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+.donwloadButton:hover {
+    color:var(--primary-color);
+}
+@media only screen and (max-widht: 768px) {
+ .profilo_container {
+    flex-direction: column;
+    }
+
+}
+
+/*Competenze*/
+
+.Lista_Competenze {
+    
+    color: grey;
+    line-height: 0.5;
+}
+
+/*Formazione*/
+
+.formazione {
+    color: grey;
+    line-height: 1;
+}
+
+.ruolo, .Contatti {
+    color: grey;
+    line-height: 1;
+}
+
+/*Bottone*/
+.buttonHome {
+    background-color: #000000c2;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.buttonHome:hover {
+    color:#cc8d18c2 ;
+}
+
+/* Esperienze */
+
+

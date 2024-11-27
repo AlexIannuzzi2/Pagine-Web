@@ -1,0 +1,127 @@
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                    <div class="Esperienze">
+                    <h2>Esperienze lavorative</h2>
+                    <h3>Service Audio-Luci Liberato Merola: 2022-corrente</h3>
+                        <p class="ruolo">Ho ricoperto il ruolo di Assistente tecnico audio-luci con compiti mirati nel montaggio e cablaggio delle americane dello stage e di tutto ciò che viene richiesto sulla scheda tecnica fornita.</p>
+                        <h4>Service Audio-luci Velia Teatro: 2022-corrente</h4>
+                        <p class="ruolo">Ho ricoperto il ruolo di Assistente tecnico audio-luci con compiti mirati al corretto montaggio di luci e audio secondo scheda tecnica fornita.</p>
+                        <h5>TECNICO LUCI: 11-05-2024</h5>
+                        <p class="ruolo">Ho supervisionato e guidato lo show luci per la band Euthymia presso LIVE CLUB a Bamberga, Germania.</p>
+                        <h5>PA: 15-07-2023</h5>
+                        <p class="ruolo">Tecnico del suono per Euthymia presso SECRETPLACE a Saint-Jean-de-Védas, Francia.</p>
+                        <h5>Cameriere/Barista: 2015-2024</h5>
+                        <p class="ruolo">Ho lavorato in diversi ristoranti e bar dislocati in Italia, Germania e Austria. I miei compiti principali includevano prendere le ordinazioni, apparecchiare, sparecchiare e la preparazione della sala prima e dopo il servizio.</p>
+            </div>
+                <button id="toggleFormazione" >Mostra Formazione accademica</button>
+
+                    <h2>Formazione accademica</h2>
+                    <h3>Università:</h3>
+                    <p class="formazione"> I.E.D Roma: 2018-2021 Diploma accademico di primo livello in Nuove Tecnologie dell’Arte, focus su sound design.</p>
+                    <h3>Scuola secondaria di secondo grado:</h3>
+                    <p class="formazione">2013-2018 Diploma in Ragioneria, specializzato in programmazione presso l’I.I.S Cenni-Marconi.</p>
+
+                <button id="toggleCompetenze" >Mostra Competenze</button>
+                    <h2>Competenze</h2>
+                    <h3>Software audio: </h3>
+                    <p class="competenze">Ableton Live, Pro Tools;</p>
+                    <h3>Certificazione:</h3>
+                    <p class="competenze">Pro Tools 101;</p>
+                    <h3>Mixer luci:</h3>
+                    <p class="competenze"> Sagitter Quiver e Scan control;</p>
+                    <h3>Mixer audio:</h3>
+                    <p class="competenze"> Behringer X32, Allen & Heat SQ7-QU16;</p>
+                    <h3>Software luci:</h3>
+                    <p class="competenze"> DasLight.</p>
+                    <h3>Lingue:</h3>
+                    <p class="competenze">Italiano Madrelingua<br>Inglese B2<br>Tedesco B1</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sfondo*/
+.sfondo {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url("home images/6.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Stile per le intestazioni */
+h2, h3, h4, h5 {
+    margin-bottom: 0px; /* Spazio sotto le intestazioni */
+    color: #000000; /* Colore delle intestazioni */
+    font-size: 20px; /* Dimensione per le intestazioni di secondo livello */
+    margin-top: 20px; /* Spazio sopra le intestazioni */
+}
+
+h1 {
+    font-size: 30px; /* Dimensione del titolo principale */
+    text-align: center; /* Allineamento al centro */
+
+}
+
+p {
+    line-height: 1.5; /* Distanza tra le righe */
+    margin-bottom: 0px; /* Spazio sotto ogni paragrafo */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; /* Dimensione del testo */
+    color: #000000; /* Colore del testo */
+}
+
+
